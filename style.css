@@ -1,37 +1,37 @@
 :root {
---branco-principal: #ffffff;
---cinza-secundario: #c0c0c0;
---botao-azul: #167bf7;
---cor-de-fundo: #00030c;
---fonte--pricipal: "Inter";
---botao-azul-efeito: #3c92fa;
+    --branco-principal: #ffffff;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167bf7;
+    --cor-de-fundo: #00030c;
+    --fonte-principal: "Inter";
+    --botao-azul-efeito: #3c92fa; 
 }
 
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
-    fonte-family: var(var(--fonte--pricipal);
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--fonte-principal); 
+    font-size: 16px; 
+    font-weight: 400; 
 }
 
 * {
-    margin: 0; 
-    padding: 0;
+    margin: 0;
+    padding: 0;    
 }
 
 .principal {
-    background-image: url("img/Background.png");
-    background-repeat: no-repeat
-    background-size: contein
-    align-itens: center;
-    text-align: center;
+    background-image: url("img/Background.png"); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center; 
+    text-align: center; 
 }
 
 .container {
     height: 100vh;
     display: grid;
-    grid-template-columns: 50%; 50%;
+    grid-template-columns: 50% 50%;
 }
 
 .container__botao {
@@ -40,13 +40,13 @@ body{
     padding: 1em;
     color: var(--branco-principal);
     display: block;
-    text-decoration: nome;
-    margin-bottom: 1em;
+    text-decoration: none;
+    margin-bottom: 1em; 
 }
 
-.botao_secundario{
+.botao_secundario {
     background-color: transparent;
-    border: 2px solid var(--branco-principal)   
+    border: 2px solid var(--branco-principal);
 }
 
 .container__aviso {
@@ -63,7 +63,7 @@ body{
     margin: 1em 0 2em 0;
 }
 
-container__caixa {
+.container__caixa {
     margin: 0 6em;
 }
 
@@ -78,7 +78,7 @@ container__caixa {
 
 .descricao__titulo {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 48px;
     color: var(--branco-principal);
     margin-bottom: 0.1em;
 }
@@ -108,7 +108,7 @@ container__caixa {
 }
 
 .dispositivos__titulo {
-    font-size: 32px;
+    font-size: 48px;
     color: var(--branco-principal);
 }
 
@@ -125,7 +125,7 @@ container__caixa {
 .rodape__lista {
     display: flex;
     justify-content: center;
-    list-style-type: nome;
+    list-style-type: none;
     margin-top: 1em;
 }
 
@@ -136,13 +136,13 @@ container__caixa {
 }
 
 .rodape__texto {
-    margin: 1em 0:
-    color: var(--cinza-secundario)
+    margin: 1em 0;
+    color: var(--cinza-secundario);
     font-size: 14px;
 }
 
 .lista__link a:hover {
-    color: var(--botao-azul)
+    color: var(--botao-azul);
 }
 
 .lista__link a:active {
@@ -153,3 +153,6 @@ container__caixa {
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
 }
+
+
+
